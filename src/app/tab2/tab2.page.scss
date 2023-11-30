@@ -1,105 +1,91 @@
-.view-mobile-sample, .view-mobile-sample * {
-       box-sizing: border-box;
-     }
-     
-     .view-mobile-sample {
-       background: #fff;
-       width: 100vw;
-       height: 100vh;
-       position: relative;
-       overflow: hidden;  
-     }
-     
-     .background {
-       width: 100%; 
-       height: 100%;
-       position: absolute;
-       left: 0;
-       top: 0;
-       box-shadow: 0 4px 4px 0 rgba(0,0,0,.25);
-       overflow: hidden;  
-     }
-     
-     .rectangle-3 {
-       background: #010101;
-       width: 100%;
-       height: 100%; 
-       position: absolute;
-       left: 0;
-       top: 0;
-     }
-     
-     .datos {
-       width: 100%;
-       height: 102.8vh;
-       position: absolute;
-       left: 0;
-       top: 9%;
-       overflow: hidden;  
-     }
-     
-     .frame-7 {
-       width: 100%;
-       height: 6vh;
-       position: absolute; 
-       left: 0;
-       bottom: 15vh;
-       overflow: hidden;
-     }
-     
-     .rectangle-7 {
-       background: rgba(96,96,96,.4);
-       width: 100%;
-       height: 100%;
-       position: absolute;
-       left: 0;
-       top: 0; 
-     }
-
-     .cancion {
-       color: #fff;
-       text-align: left;
-       font: 400 200% Inter;
-       position: absolute;
-       left: 5%;
-       top: 35%;  
-     }
-
-     .frame-15 {
-       width: 100%;
-       height: 15vh;
-       position: absolute;
-       left: 0;
-       bottom: 20vh;
-       overflow: hidden;  
-     }
-
-     .descripcion {
-       color: #fff;
-       text-align: left;
-       font: 400 200% Inter;
-       position: absolute;  
-       left: 5%;
-       top: 35%; 
-     }
-     
-     .titulo {
-       color: #fff;
-       text-align: left; 
-       font: 400 200% Inter;
-       position: absolute;
-       left: 5%;
-       top: 5%;  
-     }
-
-.opciones 
-{
-       width: 25vw;
-       height: 60vh;
-       position: absolute;
-       right: 0;
-       top: 20vh;
-       overflow: visible;
+.view-mobile-sample,
+.view-mobile-sample * {
+  box-sizing: border-box;
 }
 
+.view-mobile-sample {
+  background: #fff;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
 
+.background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.rectangle-3 {
+  background: #010101;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.datos {
+  width: 100%;
+  height: 102.8vh;
+  position: absolute;
+  left: 0;
+  top: 9%;
+  overflow: hidden;
+}
+
+.rectangle-7 {
+  background: rgba(96, 96, 96, 0.4);
+  width: 100%;
+  height: 10%;
+  position: absolute;
+  top: 75.5%;
+}
+
+.cancion {
+  color: #fff;
+  text-align: left;
+  font: 400 200% Inter;
+  position: absolute;
+  left: 5%;
+  top: 35%;
+}
+
+.frame-15 {
+  width: 100%;
+  height: 15vh;
+  position: absolute;
+  left: 0;
+  bottom: 20vh;
+  overflow: hidden;
+}
+
+.descripcion {
+  color: #fff;
+  text-align: left;
+  font: 400 200% Inter;
+  position: absolute;
+  left: 5%;
+  top: 35%;
+}
+
+.titulo {
+  color: #fff;
+  text-align: left;
+  font: 400 200% Inter;
+  position: absolute;
+  left: 5%;
+  top: 5%;
+}
+
+.opciones {
+  width: 25vw;
+  height: 60vh;
+  position: absolute;
+  right: 0;
+  top: 20vh;
+  overflow: visible;
+}
